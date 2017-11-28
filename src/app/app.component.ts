@@ -3,7 +3,7 @@ import {
   OnInit
 } from '@angular/core';
 
-import { seed } from './../../seed'
+import { seed } from './../../seed';
 
 
 @Component({
@@ -20,11 +20,11 @@ export class AppComponent implements OnInit {
   }
 
   showDetails(targetId) {
-    this.selectedArticle = this.data.find(x => x.id === targetId)
+    this.selectedArticle = this.data.find(x => x.id === targetId);
   }
 
   deleteTargetArticle(targetId) {
-    this.data = this.data.filter(el => Number(el.id) !== Number(targetId))
-    this.selectedArticle = {}
+    this.data = this.data.filter(el => Number(el.id) !== Number(targetId));
+    this.selectedArticle = {};
   }
 }

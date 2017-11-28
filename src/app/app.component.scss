@@ -1,15 +1,11 @@
 $titleColor: antiquewhite;
 $articleColor: rgb(174, 174, 211);
-
-.container{
+.container {
     display: flex;
-    .left{
-        background-color:$titleColor;
+    .left {
+        background-color: $titleColor;
     }
-    .right{
-        background-color: $articleColor ;
+    .right {
+        background-color: $articleColor;
     }
 }
-
-
-

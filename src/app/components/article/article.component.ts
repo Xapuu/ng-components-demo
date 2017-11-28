@@ -38,7 +38,7 @@ export class ArticleComponent implements OnChanges {
     if (this.limit === this.counter) {
       this.hide = true;
     }
-    console.log(this.limit)
+    console.log(this.limit);
     this.counter = this.counter + 1;
   }
   hideText() {
@@ -55,6 +55,6 @@ export class ArticleComponent implements OnChanges {
   }
 
   deleteArticle(targetId: number): void {
-    this.deleteArticleEmitter.emit(targetId)
+    this.deleteArticleEmitter.emit(targetId);
   }
 }
